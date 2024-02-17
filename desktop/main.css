@@ -52,18 +52,18 @@ body {
 .alszoveg {
     margin-top: 50px;
     margin-left: 40px;
+    margin-bottom: 30px;
     color: white;
 }
 
 .jatek {
-    background-color: brown;
+    background-color: #161843;
     width: 350px;
-    height: 380px;
+    height: 360px;
 }
 
 .container {
     display: flex;
-    border: red solid;
     color: white;
     justify-content: space-around;
     flex-wrap: nowrap;
@@ -72,6 +72,56 @@ body {
 
 .jatek-kep {
     background-color: white;
-    height: 170px;
+    height: 300px;
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.k-1 {
+    background-image: url(képek/rdr2.jpeg);
+}
+
+.k-2 {
+    background-image: url(képek/darksouls.png);
+}
+
+.k-3 {
+    background-image: url(képek/eldenring.png);
+}
+
+.nev {
+    font-family: 'Montserrat', Arial, sans-serif;
+    width: 60%;
+    text-align: left;
+    float: left;
+    height: 60px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.aroff {
+    font-family: 'Metrophobic', Arial, sans-serif;
+    display: flex;
+    width: 30%;
+    margin-top: 6px;
+    justify-content: center;
+    align-items: center;
+    float:leftt;
+    height: 25px;
+    text-decoration: line-through;
+    font-size: 10pt;
+    background-color: #302E96;
+}
+
+.ar {
+    font-family: 'Metrophobic', Arial, sans-serif;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    height: 20px;
+    font-size: 10pt;
+    background-color: #302E96;
 }
