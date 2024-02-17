@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat,Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 body {
@@ -40,4 +40,38 @@ body {
     height: 20%;
     margin: 0;
     float: right;
+}
+
+.main-text {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.alszoveg {
+    margin-top: 50px;
+    margin-left: 40px;
+    color: white;
+}
+
+.jatek {
+    background-color: brown;
+    width: 350px;
+    height: 380px;
+}
+
+.container {
+    display: flex;
+    border: red solid;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 75px;
+}
+
+.jatek-kep {
+    background-color: white;
+    height: 170px;
+    width: 100%;
 }
