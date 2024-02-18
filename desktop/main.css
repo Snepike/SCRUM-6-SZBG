@@ -229,50 +229,134 @@ body {
 
 .k-1 {
     background-image: url(képek/rdr2.jpeg);
+    transition: transform 0.5 ease;
+}
+
+.k-1:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .k-2 {
     background-image: url(képek/darksouls.png);
+    transition: transform 0.5 ease;
+}
+
+.k-2:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .k-3 {
     background-image: url(képek/eldenring.png);
+    transition: transform 0.5 ease;
+}
+
+.k-3:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .k-4 {
     background-image: url(képek/netflix.png);
+    transition: transform 0.5 ease;
+}
+
+.k-4:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .k-5 {
     background-image: url(képek/mk1.png);
+    transition: transform 0.5 ease;
+}
+
+.k-5:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .k-6 {
     background-image: url(képek/god_of_war_ragnarok.png);
+    transition: transform 0.5 ease;
+}
+
+.k-6:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .k-7 {
     background-image: url(képek/Witcher3_wildhunt.jpeg);
+    transition: transform 0.5 ease;
+}
+
+.k-7:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .k-8 {
     background-image: url(képek/zelda-featured-trailer.png);
+    transition: transform 0.5 ease;
+}
+
+.k-8:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .k-9 {
     background-image: url(képek/Gta5.png);
+    transition: transform 0.5 ease;
+}
+
+.k-9:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .k-10 {
     background-image: url(képek/cyberpunk2077.png);
+    transition: transform 0.5 ease;
+}
+
+.k-10:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .k-11 {
     background-image: url(képek/Sekiro_art.jpg);
+    transition: transform 0.5 ease;
+}
+
+.k-11:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .k-12 {
     background-image: url(képek/bloodborne.png);
+    transition: transform 0.5 ease;
+}
+
+.k-12:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
 }
 
 .footer {
@@ -336,7 +420,21 @@ body {
     width: 80%;
     height: 80%;
     border: black 3px solid;
-    border-radius: 10px;
+    border-radius: 20px;
+    transition: transform 0.5 ease;
+    transition: filter 0.3s ease;
+    filter: blur(5px);
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-left: 10%;
+}
+
+.overcookedb:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    filter: none;
 }
 
 .acb {
@@ -344,7 +442,17 @@ body {
     width: 80%;
     height: 80%;
     border: black 3px solid;
-    border-radius: 10px;
+    border-radius: 20px;
+    transition: transform 0.5 ease;
+    transition: filter 0.3s ease;
+    filter: blur(5px);
+    margin-left: 8%;
+}
+
+.acb:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    filter: none;
 }
 
 /* Töréspontok */
