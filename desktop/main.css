@@ -140,10 +140,10 @@ body {
 }
 
 .rdr2 {
+    background-image: url(képek/rdr2bg.jpg);
     clear: both;
     float: left;
     background-color: #161843;
-    margin-left: 10%;
 }
 
 .jatek {
@@ -568,4 +568,124 @@ body {
         flex-shrink: 0;
         text-overflow: ellipsis;
     }
+}
+
+#egeszleiras {
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .8);
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin-top: 10%;
+    padding-right: 35%;
+    color: white;
+    border-radius: 3px;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#pmain-text {
+    margin-top: 12.5%;
+}
+
+#leiras {
+    margin-top: 2.5%;
+}
+
+#eladas1 {
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .6);
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    justify-content: left;
+}
+
+#eladas2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 5%;
+    width: 100%;
+    height: 500px;
+}
+
+.arak {
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .6);
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.rdr2_aroff {
+    display: flex;
+}
+
+#rdr2_aroff {
+    margin-bottom: 10px;
+    text-decoration: line-through;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rdr2_ar {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.vasarlas {
+    margin-bottom: 10%;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+
+#gomb {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #fff;
+    border-radius: 15px;
+    border: 0;
+    width: 120px;
+    height: 40px;
+    background-color: #363974;
+    cursor: pointer;
+    transition: transform 0.01s;
+}
+
+#gomb:active {
+    content: "Feliratkozva";
+    transform: scale(1.1);
+}
+
+#vasarlaskep {
+    margin-top: 20px;
+    height: auto;
+    width: 100px;
+}
+
+
+#gepigenykep {
+    display: inline-block;
+    width: 120px;
+    vertical-align: top;
+}
+
+#gepigenyszoveg {
+    margin-top: 10px;
+    width: 400px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#forras {
+    text-decoration: underline;
+    color: white;
+    transition: font-size 0.3s ease;
+}
+
+#forras:hover {
+    font-size: 1.05em;
 }
