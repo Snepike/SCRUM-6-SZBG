@@ -9,9 +9,47 @@
 
 body {
     min-height: 100vh;
-    background: url(képek/bg.png) no-repeat;
     background-size: cover;
     background-position: center;
+    max-width: 100%;
+}
+
+#fooldal {
+    background: url(képek/bg.png);
+}
+
+#tamogatas {
+    background-color: #161843;
+}
+
+#vasarlas {
+    background: url(képek/bg2.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#csomagok {
+    background: url(képek/bg2.png) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#telefon {
+    height: 10%;
+    width: 10%;
+}
+
+.box1 {
+    margin-top: 15%;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    margin-left: 10%;
+    display: flex;
+}
+
+.szoveg1 {
+    margin-left: 10%;
 }
 
 .header {
@@ -25,14 +63,21 @@ body {
     justify-content: space-between;
     display: flex;
     align-items: center;
+    z-index: 1000;
 }
 
-.navsav a{
+.navsav a {
     font-size: 1.15rem;
     color: white;
     text-decoration: none;
     font-weight: 500;
     margin-left: 2.5rem;
+    transition: font-size 0.3s ease;
+}
+
+.navsav a:hover {
+    font-size: 1.25rem;
+    color: white;
 }
 
 .logo {
@@ -49,17 +94,65 @@ body {
     font-family: 'Montserrat', Arial, sans-serif;
 }
 
+
+.tszoveg {
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+
+.szoveg {
+    margin-top: 25%;
+    text-align: center;
+}
+
+.tgomb {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    background-color: #363974;
+    color: white;
+    width: 150px;
+    height: 70px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.01s;
+}
+
+.tgomb:active {
+    transform: scale(1.05);
+}
+
 .alszoveg {
+    font-family: 'Montserrat', Arial, sans-serif;
     margin-top: 50px;
     margin-left: 40px;
     margin-bottom: 30px;
     color: white;
 }
 
+#margin {
+    margin-bottom: 100px;
+}
+
+.rdr2 {
+    background-image: url(képek/rdr2bg.jpg);
+    clear: both;
+    float: left;
+    background-color: #161843;
+}
+
 .jatek {
     background-color: #161843;
     width: 350px;
     height: 360px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
 }
 
 .container {
@@ -78,16 +171,20 @@ body {
     background-repeat: no-repeat;
 }
 
-.k-1 {
-    background-image: url(képek/rdr2.jpeg);
+
+.nevcs {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 500;
+    display: flex;
+    float: left;
+    margin-right: 10px;
 }
 
-.k-2 {
-    background-image: url(képek/darksouls.png);
-}
-
-.k-3 {
-    background-image: url(képek/eldenring.png);
+.arcs {
+    display: flex;
+    float: left;
+    background-color: #302E96;
+    margin-left: 10px;
 }
 
 .nev {
@@ -98,6 +195,9 @@ body {
     height: 60px;
     margin-top: 3px;
     margin-left: 10px;
+    text-align: center;
+    align-items: center;
+    align-self: center;
 }
 
 .aroff {
@@ -107,7 +207,7 @@ body {
     margin-top: 6px;
     justify-content: center;
     align-items: center;
-    float:leftt;
+    float:left;
     height: 25px;
     text-decoration: line-through;
     font-size: 10pt;
@@ -124,4 +224,468 @@ body {
     height: 20px;
     font-size: 10pt;
     background-color: #302E96;
+}
+
+.egyar {
+    font-family: 'Metrophobic', Arial, sans-serif;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    float:left;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 10pt;
+    background-color: #302E96;
+}
+
+.k-1 {
+    background-image: url(képek/rdr2.jpeg);
+    transition: transform 0.5 ease;
+}
+
+.k-1:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.k-2 {
+    background-image: url(képek/darksouls.png);
+    transition: transform 0.5 ease;
+}
+
+.k-2:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.k-3 {
+    background-image: url(képek/eldenring.png);
+    transition: transform 0.5 ease;
+}
+
+.k-3:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.k-4 {
+    background-image: url(képek/netflix.png);
+    transition: transform 0.5 ease;
+}
+
+.k-4:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.k-5 {
+    background-image: url(képek/mk1.png);
+    transition: transform 0.5 ease;
+}
+
+.k-5:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.k-6 {
+    background-image: url(képek/god_of_war_ragnarok.png);
+    transition: transform 0.5 ease;
+}
+
+.k-6:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.k-7 {
+    background-image: url(képek/Witcher3_wildhunt.jpeg);
+    transition: transform 0.5 ease;
+}
+
+.k-7:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.k-8 {
+    background-image: url(képek/zelda-featured-trailer.png);
+    transition: transform 0.5 ease;
+}
+
+.k-8:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.k-9 {
+    background-image: url(képek/Gta5.png);
+    transition: transform 0.5 ease;
+}
+
+.k-9:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.k-10 {
+    background-image: url(képek/cyberpunk2077.png);
+    transition: transform 0.5 ease;
+}
+
+.k-10:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.k-11 {
+    background-image: url(képek/Sekiro_art.jpg);
+    transition: transform 0.5 ease;
+}
+
+.k-11:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.k-12 {
+    background-image: url(képek/bloodborne.png);
+    transition: transform 0.5 ease;
+}
+
+.k-12:hover {
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20235F;
+    color: #fff;
+    margin-top: 10%;
+    padding: 20px 60px;
+}
+
+.footertext {
+    font-family: 'Metrophobic', Arial, sans-serif;
+}
+
+.emailmezo {
+    width: 250px;
+    height: 30px;
+    background-color: #20235F;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: white;
+}
+
+
+.gomb {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #fff;
+    border-radius: 15px;
+    border: 0;
+    width: 100px;
+    height: 30px;
+    background-color: #363974;
+    cursor: pointer;
+    transition: transform 0.01s;
+}
+
+.gomb:active {
+    content: "Feliratkozva";
+    transform: scale(1.1);
+}
+
+
+.copyright {
+    font-family: 'Metrophobic', Arial, sans-serif;
+    color: #fff;
+    top: 10%;
+}
+
+.copyright1 {
+    font-family: 'Metrophobic', Arial, sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 20px; 
+    left: 60px;
+    top: 12%;
+    width: 100%;
+}
+
+.overcookedb {
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+    border: black 3px solid;
+    border-radius: 20px;
+    transition: transform 0.5 ease;
+    transition: filter 0.3s ease;
+    filter: blur(5px);
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-left: 10%;
+}
+
+.overcookedb:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    filter: none;
+}
+
+.acb {
+    margin-top: 20px;
+    width: 80%;
+    height: 80%;
+    border: black 3px solid;
+    border-radius: 20px;
+    transition: transform 0.5 ease;
+    transition: filter 0.3s ease;
+    filter: blur(5px);
+    margin-left: 8%;
+}
+
+.acb:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    filter: none;
+}
+
+/* Töréspontok */
+
+@media (max-width: 992px) {
+    .header {
+        padding: 1.3em 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navsav {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .nev {
+        text-align: left;
+        justify-content: center;
+        align-self: center;
+        font-size: smaller;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .nev {
+        font-family: 'Montserrat', Arial, sans-serif;
+        width: 65%;
+        text-align: left;
+        float: left;
+        height: 60px;
+        margin-top: 3px;
+        margin-left: 10px;
+        text-align: center;
+        align-items: center;
+        align-self: center;
+    }
+    .ar {
+        font-family: 'Metrophobic', Arial, sans-serif;
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+        float:left;
+        height: 20px;
+        font-size: 10pt;
+        background-color: #302E96;
+    }
+    
+    .egyar {
+        font-family: 'Metrophobic', Arial, sans-serif;
+        display: flex;
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+        float:left;
+        height: 35px;
+        margin-top: 10px;
+        font-size: 10pt;
+        background-color: #302E96;
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .footer {
+        display: flex;
+        align-items: center;
+        background-color: #20235F;
+        color: #fff;
+        margin-top: 10%;
+        padding: 20px 20px;
+        width: 100%;
+    }
+    
+
+}
+
+@media only screen and (max-width: 980px) {
+    .navsav {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .navsav a {
+        font-size: 1.15rem;
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 0.5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        flex-shrink: 0;
+        text-overflow: ellipsis;
+    }
+}
+
+#egeszleiras {
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .8);
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin-top: 10%;
+    padding-right: 35%;
+    color: white;
+    border-radius: 3px;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#pmain-text {
+    margin-top: 12.5%;
+}
+
+#leiras {
+    margin-top: 2.5%;
+}
+
+#eladas1 {
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .6);
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    justify-content: left;
+}
+
+#eladas2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 5%;
+    width: 100%;
+    height: 500px;
+}
+
+.arak {
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .6);
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.rdr2_aroff {
+    display: flex;
+}
+
+#rdr2_aroff {
+    margin-bottom: 10px;
+    text-decoration: line-through;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rdr2_ar {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.vasarlas {
+    margin-bottom: 10%;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+
+#gomb {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #fff;
+    border-radius: 15px;
+    border: 0;
+    width: 120px;
+    height: 40px;
+    background-color: #363974;
+    cursor: pointer;
+    transition: transform 0.01s;
+}
+
+#gomb:active {
+    content: "Feliratkozva";
+    transform: scale(1.1);
+}
+
+#vasarlaskep {
+    margin-top: 20px;
+    height: auto;
+    width: 100px;
+}
+
+
+#gepigenykep {
+    display: inline-block;
+    width: 120px;
+    vertical-align: top;
+}
+
+#gepigenyszoveg {
+    margin-top: 10px;
+    width: 400px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#forras {
+    text-decoration: underline;
+    color: white;
+    transition: font-size 0.3s ease;
+}
+
+#forras:hover {
+    font-size: 1.05em;
 }
