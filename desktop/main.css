@@ -34,6 +34,13 @@ body {
     background-size: cover;
 }
 
+.rdr2 {
+    background-image: url(képek/rdr2bg.jpg);
+    clear: both;
+    float: left;
+    background-color: #161843;
+}
+
 #telefon {
     height: 10%;
     width: 10%;
@@ -137,13 +144,6 @@ body {
 
 #margin {
     margin-bottom: 100px;
-}
-
-.rdr2 {
-    background-image: url(képek/rdr2bg.jpg);
-    clear: both;
-    float: left;
-    background-color: #161843;
 }
 
 .jatek {
@@ -469,106 +469,8 @@ body {
     filter: none;
 }
 
-/* Töréspontok */
-
-@media (max-width: 992px) {
-    .header {
-        padding: 1.3em 5%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .navsav {
-        float: none;
-        display: block;
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 1400px) {
-    .nev {
-        text-align: left;
-        justify-content: center;
-        align-self: center;
-        font-size: smaller;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .nev {
-        font-family: 'Montserrat', Arial, sans-serif;
-        width: 65%;
-        text-align: left;
-        float: left;
-        height: 60px;
-        margin-top: 3px;
-        margin-left: 10px;
-        text-align: center;
-        align-items: center;
-        align-self: center;
-    }
-    .ar {
-        font-family: 'Metrophobic', Arial, sans-serif;
-        display: flex;
-        width: 30%;
-        justify-content: center;
-        align-items: center;
-        float:left;
-        height: 20px;
-        font-size: 10pt;
-        background-color: #302E96;
-    }
-    
-    .egyar {
-        font-family: 'Metrophobic', Arial, sans-serif;
-        display: flex;
-        width: 20%;
-        justify-content: center;
-        align-items: center;
-        float:left;
-        height: 35px;
-        margin-top: 10px;
-        font-size: 10pt;
-        background-color: #302E96;
-    }
-
-}
 
 
-@media only screen and (max-width: 1000px) {
-
-    .footer {
-        display: flex;
-        align-items: center;
-        background-color: #20235F;
-        color: #fff;
-        margin-top: 10%;
-        padding: 20px 20px;
-        width: 100%;
-    }
-    
-
-}
-
-@media only screen and (max-width: 980px) {
-    .navsav {
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-    }
-
-    .navsav a {
-        font-size: 1.15rem;
-        color: white;
-        text-decoration: none;
-        font-weight: 500;
-        margin-left: 0.5rem;
-        white-space: nowrap;
-        overflow: hidden;
-        flex-shrink: 0;
-        text-overflow: ellipsis;
-    }
-}
 
 #egeszleiras {
     backdrop-filter: blur(50px);
@@ -688,4 +590,119 @@ body {
 
 #forras:hover {
     font-size: 1.05em;
+}
+
+
+/* Töréspontok */
+
+@media (max-width: 992px) {
+    .header {
+        padding: 1.3em 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navsav {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .nev {
+        text-align: left;
+        justify-content: center;
+        align-self: center;
+        font-size: smaller;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .nev {
+        font-family: 'Montserrat', Arial, sans-serif;
+        width: 65%;
+        text-align: left;
+        float: left;
+        height: 60px;
+        margin-top: 3px;
+        margin-left: 10px;
+        text-align: center;
+        align-items: center;
+        align-self: center;
+    }
+    .ar {
+        font-family: 'Metrophobic', Arial, sans-serif;
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+        float:left;
+        height: 20px;
+        font-size: 10pt;
+        background-color: #302E96;
+    }
+    
+    .egyar {
+        font-family: 'Metrophobic', Arial, sans-serif;
+        display: flex;
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+        float:left;
+        height: 35px;
+        margin-top: 10px;
+        font-size: 10pt;
+        background-color: #302E96;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .container {
+        gap: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 40%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .footer {
+        display: flex;
+        align-items: center;
+        background-color: #20235F;
+        color: #fff;
+        margin-top: 10%;
+        padding: 20px 20px;
+        width: 100%;
+    }
+    
+
+}
+
+@media only screen and (max-width: 980px) {
+    .navsav {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .navsav a {
+        font-size: 1.15rem;
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 0.5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        flex-shrink: 0;
+        text-overflow: ellipsis;
+    }
 }
