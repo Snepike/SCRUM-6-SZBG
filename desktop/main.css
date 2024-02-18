@@ -19,7 +19,7 @@ body {
 }
 
 #tamogatas {
-    background-color: #161843;
+    background-image: url(képek/customer\ service.jpg);
 }
 
 #vasarlas {
@@ -29,7 +29,7 @@ body {
 }
 
 #csomagok {
-    background: url(képek/bg2.png) no-repeat;
+    background: url(képek/wp8015700.jpg) no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
 }
