@@ -16,10 +16,14 @@ body {
 
 #fooldal {
     background: url(képek/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #tamogatas {
     background-image: url(képek/customer\ service.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #vasarlas {
@@ -38,7 +42,6 @@ body {
     background-image: url(képek/rdr2bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    clear: both;
     float: left;
     background-color: #161843;
 }
@@ -94,6 +97,11 @@ body {
     height: 20%;
     margin: 0;
     float: right;
+    transition: font-size 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .main-text {
@@ -436,6 +444,10 @@ body {
     width: 100%;
 }
 
+#footer_elemek {
+    margin: 0;
+}
+
 .overcookedb {
     margin-top: 20px;
     width: 80%;
@@ -771,5 +783,23 @@ body {
     .container {
         margin-left: 100px;
         margin-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 2560px) {
+    .tgomb {
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .tgomb {
+        margin-left: 35%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .tgomb {
+        margin-left: 25%;
     }
 }
