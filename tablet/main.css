@@ -14,11 +14,16 @@ body{
     background-position: center;
 }
 
-.hatter_fooldal{
+.hatter_fooldal{     /*index.html háttére*/
     background-image: url(képek/bg.png);
 }
 
+.hatter_tamogatas{     /*tamogatas.html háttére*/
+    background-image:url(képek/customer\ service.jpg);
+}
+
 /*Fejléc*/
+/*index.html*/
 header{
     background-color: #161843;
     width: 100%;
@@ -58,8 +63,11 @@ header a:active{
     max-height: 2.5rem;
     float: right;
 }
+/*index.hmtl*/
 /*Fejléc*/
+
 /*Main*/
+/*index.html*/
 main{
     color:white;
 }
@@ -100,6 +108,7 @@ main{
     margin: auto;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .main_nev1{
@@ -129,7 +138,115 @@ main{
 .arsor span {
     display: block;
 }
-/*Main*/
-/*Footer*/
+/*index.html*/
+/*tamogatas.html*/
 
+.segitseg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.segitsegszoveg1{
+    font-size: 2.5rem;
+    margin:1rem 0 1rem 0;
+}
+
+.segitsegszoveg2{
+    font-size: 2.5rem;
+    margin:1rem 0 0 0;
+}
+
+.segitseggomb{
+    width: 10rem;
+    height: 5rem;
+    border-radius: 1rem;
+    background-color: #20235F;
+    color: white;
+    border: 0;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.elerhetoseg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.elerhetosegszoveg1{
+    font-size: 2.5rem;
+    margin:1rem 0 1rem 0;
+}
+
+.elerhetosegbox{
+    font-size: 1.9rem;
+}
+
+.elerhetosegli{
+    margin: 1rem 0;
+}
+
+main li{
+    list-style-type: none;
+
+}
+
+main li>img{
+    width:3rem ;
+    margin-right:25px ;
+}
+
+/*tamogatas.html*/
+/*Main*/
+
+/*Footer*/
+/*index.html*/
+footer{
+    background-color: #161843;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.lablec_cim{
+    margin-top: 1rem;
+}
+
+.feliratkozom{
+}
+
+.feliratkozommezo{
+    background-color: #302E96;
+    color: white;
+    border-radius: 1rem;
+    width: 6rem;
+    height: 2rem;
+    border: 0;
+}
+
+.emailcimmezo{
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    background-color: #161843;
+    border: white 1px solid; 
+    color: white;
+    width: 15rem;
+    height: 2rem;
+}
+
+#szerzoijogok{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+/*index.html*/
+/*tamogatas.html*/
+
+.hatter_tamogatas footer{
+    position: absolute;    
+}
+/*tamogatas.html*/
 /*Footer*/

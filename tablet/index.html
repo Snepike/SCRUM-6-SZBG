@@ -127,17 +127,21 @@
         </div>
     </main>
 
-    <footer class="footer">
-        <div class="col-xl-6 col-lg-6 col-md-6">
-            <h5 class="footertext">Iratkozzon fel hírlevelünkre!</h5>
-            <input type="text" placeholder="Írja be az emailcímét" class="emailmezo">
-            <button class="gomb" onclick="this.innerHTML = 'Feliratkozva'; this.disabled = true;">Feliratkozás</button>
-        </div>
-        </div>
-        <div class="col-xl-6 col-lg-6 col-md-6">
-            <p class="copyright1">Az oldal szerzői jog által védett @SZBG</p>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 offset-lg-1">
+                    <h5 class="mt3 lablec_cim">Íratkozzon fel hírlevelünkre!</h5>
+                    <form class="feliratkozom">
+                        <input type="text" placeholder="Írja be az emailcímét" class="emailcimmezo">
+                        <input type="button" value="Feliratkozva" class="feliratkozommezo">
+                    </form>
+                </div>
+                <div class="col-sm-6 col-lg-4" id="szerzoijogok">                   
+                        <p class="lablec_szoveg">Az oldal szerzői jog által védett @SZBG</p>               
+                </div>
+            </div>
         </div>
     </footer>
-
 </body>
 </html>
