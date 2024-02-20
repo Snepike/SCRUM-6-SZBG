@@ -14,14 +14,21 @@ body{
     background-position: center;
 }
 
-.hatter_fooldal{     /*index.html háttére*/
+.hatter_fooldal{     /*index.html háttere*/
     background-image: url(képek/bg.png);
 }
 
-.hatter_tamogatas{     /*tamogatas.html háttére*/
+.hatter_tamogatas{     /*tamogatas.html háttere*/
     background-image:url(képek/customer\ service.jpg);
 }
 
+.hatter_varaslas{      /*vasarlas.html háttere*/
+    background-image: url(képek/bg2.png);
+}
+
+.hatter_csomagok{      /*csomagok.html*/
+    background-image: url(képek/wp8015700.jpg);
+}
 /*Fejléc*/
 /*index.html*/
 header{
@@ -198,6 +205,43 @@ main li>img{
 }
 
 /*tamogatas.html*/
+/*vasarlas.html*/
+
+.main_jateknev2{
+    background-color: #161843;  
+    height: 4rem;
+    max-width: 25rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.main_nev2{
+    max-width: 13rem;
+    float:left;
+    font-size: 1.5rem;
+    margin: 0 0 0 2rem ;
+}
+
+.ar2{
+    background-color:#302E96 ;
+    font-size: 1rem;   
+}
+
+.arsor2 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    margin-left: 6rem;
+    background-color:#302E96 ;
+    font-size: 1rem;
+}
+
+.arsor2 span {
+    display: block;
+}
+
+/*vasarlas.html*/
 /*Main*/
 
 /*Footer*/
