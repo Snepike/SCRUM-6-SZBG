@@ -162,6 +162,7 @@ body {
     align-items: center;
     align-self: center;
     text-align: center;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.6)
 }
 
 .container {
@@ -261,6 +262,7 @@ body {
     animation: none;
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
 .k-2 {
@@ -272,6 +274,7 @@ body {
     animation: none;
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
 .k-3 {
@@ -283,6 +286,7 @@ body {
     animation: none;
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
 .k-4 {
@@ -294,6 +298,7 @@ body {
     animation: none;
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
 .k-5 {
@@ -305,6 +310,7 @@ body {
     animation: none;
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
 .k-6 {
@@ -316,6 +322,7 @@ body {
     animation: none;
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
 .k-7 {
@@ -327,6 +334,7 @@ body {
     animation: none;
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
 .k-8 {
@@ -338,6 +346,7 @@ body {
     animation: none;
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
 .k-9 {
@@ -349,6 +358,7 @@ body {
     animation: none;
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
 .k-10 {
@@ -360,6 +370,7 @@ body {
     animation: none;
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
 .k-11 {
@@ -371,6 +382,7 @@ body {
     animation: none;
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
 .k-12 {
@@ -382,6 +394,7 @@ body {
     animation: none;
     cursor: pointer;
     transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
 .footer {
@@ -465,6 +478,7 @@ body {
     align-self: center;
     align-content: center;
     margin-left: 10%;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.6)
 }
 
 .overcookedb:hover {
@@ -483,6 +497,7 @@ body {
     transition: filter 0.3s ease;
     filter: blur(5px);
     margin-left: 8%;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.6)
 }
 
 .acb:hover {
@@ -588,6 +603,7 @@ body {
     margin-top: 20px;
     height: auto;
     width: 100px;
+    box-shadow: 7.5px 7.5px 7.5px rgba(0, 0, 0, 0.6)
 }
 
 
