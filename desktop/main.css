@@ -63,6 +63,8 @@ body {
     margin-left: 10%;
 }
 
+/*   Header, navigációs sáv konfigurációi    */
+
 .header {
     position: fixed;
     top: 0;
@@ -103,6 +105,10 @@ body {
     transform: scale(1.1);
 }
 
+/*   Játékok oldal konfigurációi  --VÉGE--    */
+
+/*   Támogatás oldal és konfigurációi    */
+
 .main-text {
     text-align: center;
     margin-top: 100px;
@@ -142,6 +148,10 @@ body {
 .tgomb:active {
     transform: scale(1.05);
 }
+
+/*   Játékok oldal konfigurációi    --VÉGE--   */
+
+/*   Fő dolgok    */
 
 .alszoveg {
     font-family: 'Montserrat', Arial, sans-serif;
@@ -252,6 +262,10 @@ body {
     font-size: 10pt;
     background-color: #302E96;
 }
+
+/*   Fő dolgok --VÉGE--    */
+
+/*  Játékok képe és konfigurációi   */ 
 
 .k-1 {
     background-image: url(képek/rdr2.jpeg);
@@ -397,6 +411,10 @@ body {
     box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
 }
 
+/*  Játékok képe és konfigurációi --VÉGE--  */ 
+
+/*  Footer és elemei   */ 
+
 .footer {
     position: relative;
     bottom: 0;
@@ -464,6 +482,11 @@ body {
     margin: 0;
 }
 
+
+/*   Footer és elemei --VÉGE--   */
+
+/*   Csomag oldal konfigurációja és elemei   */ 
+
 .overcookedb {
     margin-top: 20px;
     width: 80%;
@@ -506,8 +529,9 @@ body {
     filter: none;
 }
 
+/*   Csomag oldal konfigurációja és elemei --VÉGE--      */ 
 
-
+/*   Játékok oldal konfigurációi    */
 
 #egeszleiras {
     backdrop-filter: blur(50px);
@@ -629,6 +653,8 @@ body {
 #forras:hover {
     font-size: 1.05em;
 }
+
+/*   Játékok oldal konfigurációi  --VÉGE--    */
 
 
 /* Töréspontok  és reszponzivitáshoz*/

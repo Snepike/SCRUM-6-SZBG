@@ -242,6 +242,59 @@ main li>img{
 }
 
 /*vasarlas.html*/
+/*csomagok.html*/
+
+.main_alcim2{
+    font-size: 2rem;
+}
+
+.ar3{
+    background-color:#302E96 ;
+    font-size: 1rem;   
+}
+
+.arsor3 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    margin-left: 3rem;
+    background-color:#302E96 ;
+    font-size: 3rem;
+}
+
+.arsor3 span {
+    display: block;
+}
+
+.csomag_kep{
+    width: 20rem;
+    height: 16rem;
+}
+
+.csomag_kep:first-child{
+    border-radius: 1rem 0 0 1rem ;
+}
+
+.csomag_kep:last-child{
+    border-radius: 0 1rem 1rem 0 ;
+}
+
+.csomag_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    transition: transform 0.5 ease;
+    transition: filter 0.3s ease;
+    filter: blur(5px);
+}
+
+.csomag_box:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    filter: none;
+}
+
+/*csomagok.html*/
 /*Main*/
 
 /*Footer*/
