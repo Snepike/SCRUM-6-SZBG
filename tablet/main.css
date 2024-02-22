@@ -244,6 +244,13 @@ main li>img{
 /*vasarlas.html*/
 /*csomagok.html*/
 
+#main_csomagcim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
 .main_alcim2{
     font-size: 2rem;
 }
@@ -294,6 +301,9 @@ main li>img{
     filter: none;
 }
 
+.csomag_box:last-child{
+    margin-bottom: 1rem;
+}
 /*csomagok.html*/
 /*Main*/
 
