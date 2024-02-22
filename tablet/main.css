@@ -265,6 +265,35 @@ main li>img{
     display: block;
 }
 
+.csomag_kep{
+    width: 20rem;
+    height: 16rem;
+}
+
+.csomag_kep:first-child{
+    border-radius: 1rem 0 0 1rem ;
+}
+
+.csomag_kep:last-child{
+    border-radius: 0 1rem 1rem 0 ;
+}
+
+.csomag_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    transition: transform 0.5 ease;
+    transition: filter 0.3s ease;
+    filter: blur(5px);
+}
+
+.csomag_box:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    filter: none;
+}
+
 /*csomagok.html*/
 /*Main*/
 
