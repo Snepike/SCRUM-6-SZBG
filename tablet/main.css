@@ -29,8 +29,24 @@ body{
 .hatter_csomagok{      /*csomagok.html*/
     background-image: url(képek/wp8015700.jpg);
 }
-.hatter_rdr2{
+.hatter_jatekvasarlas{
     background-image: url(képek/rdr2bg.jpg);
+}
+
+a{
+    color: white;
+}
+a:active{
+    color: white;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: white;
 }
 /*Fejléc*/
 /*index.html*/
@@ -309,26 +325,116 @@ main li>img{
 }
 /*csomagok.html*/
 /*jatek_vasarlas.html*/
+
+
 .box1{
     backdrop-filter: blur(50px);
     background-color: rgba(32, 35, 95, .8);
     font-family: 'Montserrat', Arial, sans-serif;
-    margin-top: 5%;
-    padding-right: 35%;
     color: white;
-    border-radius: 3px;
-    align-items: center;
-    align-self: center;
-    width: 80%;
-    margin-left: 10%;
+    border-radius: 1rem;
+    padding: 0 2rem 0 2rem;
+    margin: 4rem 0 0 0;
 }
 
 .leirascim{
-    margin-top: 12.5%;
+    margin-left: 1rem;
 }
 
 .leirasszoveg{
-    margin-top: 2.5%;
+   margin-left: 1rem;
+}
+
+.box2{
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .8);
+    border-radius: 1rem;
+}
+
+.gepigenykep{
+    margin: 1rem 0 0 1rem;
+    width: 7rem;
+}
+
+.rdrkep{
+    width: 5rem;
+    box-shadow: black 0 1rem 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.gepigenyszoveg{
+    width: 30rem;
+    margin: 1rem 0 0 0;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+}
+
+.kartya{
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .8);
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    width: 25rem;
+    text-align: center;
+}
+   
+.kartya_reszletek{
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+   
+.kartya_gomb{
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #302E96;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+   
+.kartya_szoveg1{
+    color: rgb(134, 134, 134);
+    font-size: 1.3rem;
+    text-decoration: line-through;
+}
+
+.kartya_szoveg2{
+    color: rgb(134, 134, 134);
+    font-size: 1.3rem;
+}
+
+.kartya_cim{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.kartya:hover {
+    border-color: #302E96;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+   
+.kartya:hover .kartya_gomb {
+    transform: translate(-50%, 50%);
+    opacity: 1;
 }
 /*jatek_vasarlas.html*/
 /*Main*/
@@ -340,14 +446,11 @@ footer{
     color: white;
     bottom: 0;
     width: 100%;
-    height: 100px;
+
 }
 
 .lablec_cim{
     margin-top: 1rem;
-}
-
-.feliratkozom{
 }
 
 .feliratkozommezo{
@@ -377,9 +480,13 @@ footer{
 
 /*index.html*/
 /*tamogatas.html*/
-
 .hatter_tamogatas footer{
     position: absolute;    
 }
 /*tamogatas.html*/
+/*jatekvasarlas.html*/
+.hatter_jatekvasarlas footer{
+    position: absolute;
+}
+/*jatekvasarlas.html*/
 /*Footer*/
