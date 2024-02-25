@@ -184,16 +184,44 @@ main{
 }
 
 .segitseggomb{
-    width: 10rem;
-    height: 5rem;
-    border-radius: 1rem;
-    background-color: #20235F;
     color: white;
-    border: 0;
-    font-size: 1.5rem;
-    margin: 1rem 0;
+    width: 15rem;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    overflow: hidden;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 300ms ease;
+    margin: 1rem 0 1rem 0;
 }
 
+.segitseggomb::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 15rem;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #302E96;
+    top: 100%;
+    left: 0;
+    transition: 500ms ease;
+}
+
+.segitseggomb:hover {
+    color: #fff;
+    letter-spacing: 3px;
+}
+  
+.segitseggomb:hover::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .elerhetoseg{
     display: flex;
     align-items: center;
