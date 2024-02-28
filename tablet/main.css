@@ -377,6 +377,7 @@ main li>img{
     backdrop-filter: blur(50px);
     background-color: rgba(32, 35, 95, .8);
     border-radius: 1rem;
+    margin-bottom: 5rem;
 }
 
 .gepigenykep{
@@ -514,7 +515,6 @@ footer{
 /*tamogatas.html*/
 /*jatekvasarlas.html*/
 .hatter_jatekvasarlas footer{
-    position: absolute;
 }
 /*jatekvasarlas.html*/
 /*Footer*/
