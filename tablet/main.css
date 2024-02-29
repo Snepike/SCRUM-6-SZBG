@@ -377,6 +377,7 @@ main li>img{
     backdrop-filter: blur(50px);
     background-color: rgba(32, 35, 95, .8);
     border-radius: 1rem;
+    margin-bottom: 5rem;
 }
 
 .gepigenykep{
@@ -514,7 +515,58 @@ footer{
 /*tamogatas.html*/
 /*jatekvasarlas.html*/
 .hatter_jatekvasarlas footer{
-    position: absolute;
 }
 /*jatekvasarlas.html*/
 /*Footer*/
+@media only screen and (max-width:2500px){
+
+}
+
+@media (min-width: 1200px) and (max-width: 1300px){
+    
+    .main_kep1{
+        width: 22rem;
+        height: 16rem;
+    }
+
+    .main_jateknev1{
+        height: 4rem;
+        width: 22rem;
+    }
+
+    .main_nev1{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px){
+    .main_kep1{
+        width: 18rem;
+        height: 15rem;
+    }
+
+    .main_jateknev1{
+        height: 4rem;
+        width: 18rem;
+    }
+
+    .main_nev1{
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px){
+    .main_kep1{
+        width: 16rem;
+        height: 13rem;
+    }
+
+    .main_jateknev1{
+        height: 4rem;
+        width: 16rem;
+    }
+
+    .main_nev1{
+        font-size: 0.8rem;
+    }
+}
