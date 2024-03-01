@@ -29,8 +29,13 @@ body{
 .hatter_csomagok{      /*csomagok.html*/
     background-image: url(képek/wp8015700.jpg);
 }
-.hatter_jatekvasarlas{
+
+.hatter_jatekvasarlas{ /*jatek_vasarlas.html*/
     background-image: url(képek/rdr2bg.jpg);
+}
+
+.hatter_loginoldal{
+    background-color: black;
 }
 
 a{
@@ -81,7 +86,38 @@ header a:active{
 
 .fejlec_gomb{
     font-size: 1.5rem;
-    margin: 0 2rem 0 0 ;
+    background-color: #161843;
+    padding: 5px 10px;
+    border: 3px solid transparent;
+    border-radius: 0.6em;
+    transition: 0.2s;
+}
+
+.fejlec_gomb:hover{
+    font-size: 1.6rem;
+    background-color: transparent;
+    border: 3px solid #6019bd;
+    box-shadow: 0px 0px 27px 5px #6019bd;
+}
+
+@keyframes letters {
+    from {
+      width: 0;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes cursor {
+    from {
+      border-color: transparent
+    }
+  
+    50% {
+      border-color: #6019bd
+    }
 }
 
 .fejlec_logo{
@@ -90,6 +126,9 @@ header a:active{
     float: right;
 }
 /*index.hmtl*/
+/*loginoldal.html*/
+
+/*loginoldal.html*/
 /*Fejléc*/
 
 /*Main*/
@@ -466,6 +505,189 @@ main li>img{
     opacity: 1;
 }
 /*jatek_vasarlas.html*/
+/*loginoldal.html*/
+.login_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_sign{
+    margin: 5rem 0;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 25rem;
+    transition: .4s ease-in-out;
+    background-color: rgba(255,255,255,0.25);
+    border: 2px solid #8707ff;
+    color:rgb(134, 134, 134);
+    a{
+        color:  rgb(134, 134, 134);
+    }
+}
+
+
+.login_sign:hover{
+    transition: .1s;
+    animation: rotateShadow 2s infinite linear;
+    color: #8707ff;
+    outline-color: #8707ff;
+    box-shadow: -3px -3px 15px #8707ff;
+    transition: .1s;
+    transform: scale(1.05);
+    a{
+        color: #8707ff;
+    }
+}
+
+.input_container{
+    margin: 2rem 0;
+}
+
+.input_mezo{
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 3rem;
+    padding: 0.5rem ;
+    margin: 0.5rem 0;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #8707ff;
+    color:white;
+}
+
+.input_mezo:hover{
+    color: #8707ff;
+    outline-color: #8707ff;
+    box-shadow: -3px -3px 15px #8707ff;
+    transition: .1s;
+    animation: rotateShadow 2s infinite linear;
+}
+
+.input_mezo2{
+    width: 10rem;
+    height: 3rem;
+    padding: 0.5rem ;
+    margin: 0.5rem 0;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #8707ff;
+    color:white;
+    border-radius: 0.5rem;
+}
+
+.input_mezo2:hover{
+    color: #8707ff;
+    outline-color: #8707ff;
+    box-shadow: -3px -3px 15px #8707ff;
+    transition: .1s;
+    animation: rotateShadow 2s infinite linear;
+}
+
+
+
+@keyframes rotateShadow {
+    0% {
+      box-shadow: -2px -2px 8px 1px #aa00ff, 2px 2px 8px 1px #3700ff;
+    }
+    25% {
+      box-shadow: -2px 2px 8px 1px #aa00ff, 2px -2px 8px 1px #3700ff;
+    }
+    50% {
+      box-shadow: 2px 2px 8px 1px #aa00ff, -2px -2px 8px 1px #3700ff;
+    }
+    75% {
+      box-shadow: 2px -2px 8px 1px #aa00ff, -2px 2px 8px 1px #3700ff;
+    }
+    100% {
+      box-shadow: -2px -2px 8px 1px #aa00ff, 2px 2px 8px 1px #3700ff;
+    }
+}
+  
+
+.folytatas{
+    background-color: transparent;
+    border: 2px solid #8707ff;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 3rem;
+    color:  rgb(134, 134, 134);
+    margin: 1rem 0 1rem 0;
+    
+}
+
+.folytatas:active{
+    box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+.login_box a{
+    text-decoration: none;
+    margin: 0 0 2rem 0;
+}
+
+.vonal {
+    margin: 1rem 0 1rem 0 ;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgb(134, 134, 134)
+}
+
+.signup_szoveg{
+    margin-left: 2rem;
+    text-align: left;
+    
+}
+
+.datum{
+    display: inline-block
+}
+
+.radio-inputbox{
+    margin: 0;
+    display: block;
+}
+
+.radio-inputs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: rgba(255,255,255,0.25);
+    box-sizing: border-box;
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    padding: 0.25rem;
+    font-size: 14px;
+    margin: 0 2rem 0 2rem;
+}
+  
+.radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+}
+  
+.radio-inputs .radio input {
+    display: none;
+}
+  
+.radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .5rem 0;
+    color: rgba(51, 65, 85, 1);
+    transition: all .15s ease-in-out;
+}
+  
+.radio-inputs .radio input:checked + .name {
+    background-color: #fff;
+    font-weight: 600;
+    
+}
+/*loginoldal.html*/
 /*Main*/
 
 /*Footer*/
@@ -492,6 +714,7 @@ footer{
 }
 
 .emailcimmezo{
+    text-align: center;
     border-radius: 1rem;
     margin-bottom: 1rem;
     background-color: #161843;
@@ -515,6 +738,7 @@ footer{
 /*tamogatas.html*/
 /*jatekvasarlas.html*/
 .hatter_jatekvasarlas footer{
+    position: fixed;
 }
 /*jatekvasarlas.html*/
 /*Footer*/
@@ -556,6 +780,38 @@ footer{
 }
 
 @media (min-width: 1000px) and (max-width: 1100px){
+    .main_kep1{
+        width: 16rem;
+        height: 13rem;
+    }
+
+    .main_jateknev1{
+        height: 4rem;
+        width: 16rem;
+    }
+
+    .main_nev1{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: px) and (max-width: px){
+    .main_kep1{
+        width: 16rem;
+        height: 13rem;
+    }
+
+    .main_jateknev1{
+        height: 4rem;
+        width: 16rem;
+    }
+
+    .main_nev1{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: px) and (max-width: px){
     .main_kep1{
         width: 16rem;
         height: 13rem;
