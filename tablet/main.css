@@ -35,7 +35,11 @@ body{
 }
 
 .hatter_loginoldal{
-    background-color:  black;
+    background-image: url(képek/signupbg4.png);
+}
+
+.hatter_signupoldal{
+    background-image: url(képek/signupbg4.png);
 }
 
 a{
@@ -96,8 +100,10 @@ header a:active{
 .fejlec_gomb:hover{
     font-size: 1.6rem;
     background-color: transparent;
+    /*
     border: 3px solid #6019bd;
     box-shadow: 0px 0px 27px 5px #6019bd;
+    */
 }
 
 @keyframes letters {
@@ -124,6 +130,12 @@ header a:active{
     max-width: 5rem;
     max-height: 2.5rem;
     float: right;
+}
+
+.fejlec_logo:hover{
+    max-height: 2.5rem;
+    max-width: 6rem;
+    background-color: transparent;
 }
 /*index.hmtl*/
 /*loginoldal.html*/
@@ -416,7 +428,7 @@ main li>img{
     backdrop-filter: blur(50px);
     background-color: rgba(32, 35, 95, .8);
     border-radius: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
 
 .gepigenykep{
@@ -510,6 +522,13 @@ main li>img{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.hatter_loginoldal{
+    .login_box{
+        margin-bottom: 8rem;
+    }
 }
 
 .login_sign{
@@ -536,6 +555,7 @@ main li>img{
     box-shadow: -3px -3px 15px #8707ff;
     transition: .1s;
     transform: scale(1.05);
+    background-color: rgb(255,255,255,0.75);
     a{
         color: #8707ff;
     }
@@ -753,7 +773,7 @@ footer{
 /*tamogatas.html*/
 /*jatekvasarlas.html*/
 .hatter_jatekvasarlas footer{
-    position: fixed;
+    position: relative;
 }
 /*jatekvasarlas.html*/
 /*Footer*/
@@ -806,8 +826,11 @@ footer{
     }
 
     .main_nev1{
-        font-size: 0.8rem;
+        max-width: 10rem;
+        font-size: 0.9rem;
+        margin: 0 0 0 1.5rem
     }
+
 }
 
 @media (min-width: px) and (max-width: px){
