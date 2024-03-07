@@ -78,6 +78,7 @@ body {
     width: 100%;
     padding: 1rem 5%;
     background: rgba(32, 35, 95, .2);
+    font-family: 'Montserrat', Arial, sans-serif;
     backdrop-filter: blur(50px);
     justify-content: space-between;
     display: flex;
