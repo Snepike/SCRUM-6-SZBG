@@ -34,11 +34,11 @@ body{
     background-image: url(képek/rdr2bg.jpg);
 }
 
-.hatter_loginoldal{
+.hatter_loginoldal{    /*loginoldal.html*/
     background-image: url(képek/signupbg4.png);
 }
 
-.hatter_signupoldal{
+.hatter_signupoldal{    /*signupoldal.html*/
     background-image: url(képek/signupbg4.png);
 }
 
@@ -185,7 +185,7 @@ main{
     margin: auto;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 4rem;
 }
 
 .main_nev1{
@@ -781,18 +781,15 @@ footer{
 
 }
 
-@media (min-width: 1200px) and (max-width: 1300px){
-    
+@media (min-width: 1200px) and (max-width: 1300px){  
     .main_kep1{
         width: 22rem;
         height: 16rem;
     }
-
     .main_jateknev1{
         height: 4rem;
         width: 22rem;
     }
-
     .main_nev1{
         font-size: 1.2rem;
     }
@@ -803,64 +800,65 @@ footer{
         width: 18rem;
         height: 15rem;
     }
-
     .main_jateknev1{
         height: 4rem;
         width: 18rem;
+        margin-bottom: 8rem;
     }
-
     .main_nev1{
         font-size: 0.9rem;
     }
 }
 
-@media (min-width: 1000px) and (max-width: 1100px){
+@media (min-width: 950px) and (max-width: 1100px){
     .main_kep1{
         width: 16rem;
-        height: 13rem;
+        height: 12rem;
     }
-
     .main_jateknev1{
         height: 4rem;
         width: 16rem;
     }
-
     .main_nev1{
         max-width: 10rem;
         font-size: 0.9rem;
-        margin: 0 0 0 1.5rem
+        margin: 0 0 0 1rem
     }
-
+    .arsor{
+        margin-left:5rem;
+        margin-right: 1rem;
+    }
 }
 
-@media (min-width: px) and (max-width: px){
+@media (min-width: 800px) and (max-width: 950px){
     .main_kep1{
         width: 16rem;
-        height: 13rem;
+        height: 12rem;
     }
-
     .main_jateknev1{
         height: 4rem;
         width: 16rem;
     }
-
     .main_nev1{
-        font-size: 0.8rem;
+        max-width: 10rem;
+        font-size: 0.9rem;
+        margin: 0 0 0 1rem
+    }
+    .arsor{
+        margin-left:4rem;
+        margin-right: 1rem;
+    }
+    .hatter_fooldal{
+        .fejlec_gomb{
+            font-size: 95%;
+        }
+        .fejlec_logo{
+            max-width: 4.5rem;
+            max-height: 2rem;
+        }
     }
 }
 
 @media (min-width: px) and (max-width: px){
-    .main_kep1{
-        width: 16rem;
-        height: 13rem;
-    }
 
-    .main_jateknev1{
-        height: 4rem;
-        width: 16rem;
-    }
-
-    .main_nev1{
-        font-size: 0.8rem;
-    }
 }
