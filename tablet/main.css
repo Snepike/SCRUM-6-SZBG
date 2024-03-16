@@ -793,6 +793,12 @@ footer{
 
 @media (min-width: 1500px) and (max-width:2500px){
     /*footer*/
+    .hatter_tamogatas footer{
+        position: absolute;    
+    }
+    .hatter_loginoldal footer{
+        position: absolute;
+    }
     .hatter_jatekvasarlas footer{
         position: absolute;
     }
