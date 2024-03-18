@@ -38,6 +38,12 @@ body {
     background-size: cover;
 }
 
+#loginoldal{
+    background: url(képek/signupbg4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .rdr2 {
     background-image: url(képek/rdr2bg.jpg);
     background-repeat: no-repeat;
@@ -72,6 +78,7 @@ body {
     width: 100%;
     padding: 1rem 5%;
     background: rgba(32, 35, 95, .2);
+    font-family: 'Montserrat', Arial, sans-serif;
     backdrop-filter: blur(50px);
     justify-content: space-between;
     display: flex;
@@ -129,24 +136,49 @@ body {
     text-align: center;
 }
 
-.tgomb {
-    text-align: center;
-    align-items: center;
-    align-self: center;
-    margin-top: 10%;
-    margin-left: 25%;
-    background-color: #363974;
+.tgomb{
     color: white;
-    width: 150px;
-    height: 70px;
-    border: 0;
-    border-radius: 10px;
-    cursor: pointer;
+    width: 15rem;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    overflow: hidden;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 300ms ease;
+    margin: 1rem 0 1rem 0;
     transition: transform 0.01s;
 }
 
 .tgomb:active {
     transform: scale(1.05);
+}
+
+.tgomb::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 15rem;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #302E96;
+    top: 100%;
+    left: 0;
+    transition: 500ms ease;
+}
+
+.tgomb:hover {
+    color: #fff;
+    cursor: pointer;
+}
+  
+.tgomb:hover::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*   Játékok oldal konfigurációi    --VÉGE--   */
@@ -482,6 +514,22 @@ body {
     margin: 0;
 }
 
+#bsfooter {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20235F;
+    color: #fff;
+    padding: 20px 60px;
+    z-index: 1000;
+    margin-top: 15%;
+}
+
+
 
 /*   Footer és elemei --VÉGE--   */
 
@@ -590,6 +638,77 @@ body {
     display: flex;
 }
 
+.box3{
+    display: flex;
+    justify-content: center;
+    margin-top: 40%;
+}
+
+.kartya{
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .8);
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    width: 25rem;
+    text-align: center;
+}
+   
+.kartya_reszletek{
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+   
+.kartya_gomb{
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #302E96;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+   
+.kartya_szoveg1{
+    color: rgb(134, 134, 134);
+    font-size: 1.3rem;
+    text-decoration: line-through;
+}
+
+.kartya_szoveg2{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.kartya_cim{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.kartya:hover {
+    border-color: #302E96;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+   
+.kartya:hover .kartya_gomb {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+
 #rdr2_aroff {
     margin-bottom: 10px;
     text-decoration: line-through;
@@ -655,6 +774,219 @@ body {
 }
 
 /*   Játékok oldal konfigurációi  --VÉGE--    */
+
+
+
+
+/*   Bejelentkezés oldal konfigurációi    */
+
+
+.login_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_sign{
+    margin-top: 12rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 25rem;
+    transition: .4s ease-in-out;
+    background-color: rgba(255,255,255,0.25);
+    border: 2px solid #8707ff;
+    color:rgb(134, 134, 134);
+    a{
+        color:  rgb(134, 134, 134);
+    }
+}
+
+
+.login_sign:hover{
+    transition: .1s;
+    animation: rotateShadow 2s infinite linear;
+    color: #8707ff;
+    outline-color: #8707ff;
+    box-shadow: -3px -3px 15px #8707ff;
+    background-color: rgba(255,255,255,0.75);
+    transition: background-color 0.3s ease;
+    transition: .1s;
+    transform: scale(1.05);
+    a{
+        color: #8707ff;
+    }
+}
+
+.login_sign:not(:hover) {
+    background-color: rgba(255,255,255,0.25);
+    transition: background-color 0.3s;
+  }
+
+.input_container{
+    margin: 2rem 0;
+}
+
+.input_mezo{
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 3rem;
+    padding: 0.5rem ;
+    margin: 0.5rem 0;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #8707ff;
+    color:white;
+}
+
+.input_mezo:hover{
+    color: #8707ff;
+    outline-color: #8707ff;
+    box-shadow: -3px -3px 15px #8707ff;
+    transition: .1s;
+    animation: rotateShadow 2s infinite linear;
+}
+
+.input_mezo2{
+    width: 10rem;
+    height: 3rem;
+    padding: 0.5rem ;
+    margin: 0.5rem 0;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #8707ff;
+    color:white;
+    border-radius: 0.5rem;
+}
+
+.input_mezo2:hover{
+    color: #8707ff;
+    outline-color: #8707ff;
+    box-shadow: -3px -3px 15px #8707ff;
+    transition: .1s;
+    animation: rotateShadow 2s infinite linear;
+}
+
+
+
+@keyframes rotateShadow {
+    0% {
+      box-shadow: -2px -2px 8px 1px #aa00ff, 2px 2px 8px 1px #3700ff;
+    }
+    25% {
+      box-shadow: -2px 2px 8px 1px #aa00ff, 2px -2px 8px 1px #3700ff;
+    }
+    50% {
+      box-shadow: 2px 2px 8px 1px #aa00ff, -2px -2px 8px 1px #3700ff;
+    }
+    75% {
+      box-shadow: 2px -2px 8px 1px #aa00ff, -2px 2px 8px 1px #3700ff;
+    }
+    100% {
+      box-shadow: -2px -2px 8px 1px #aa00ff, 2px 2px 8px 1px #3700ff;
+    }
+}
+  
+
+.folytatas{
+    background-color: transparent;
+    border: 2px solid #8707ff;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 3rem;
+    color:  rgb(134, 134, 134);
+    margin: 1rem 0 1rem 0;
+    
+}
+
+.folytatas:active{
+    box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+.login_box a{
+    text-decoration: none;
+    margin: 0 0 2rem 0;
+}
+
+.vonal {
+    margin: 1rem 0 1rem 0 ;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid rgb(134, 134, 134)
+}
+
+.signup_szoveg{
+    margin-left: 2rem;
+    text-align: left;
+    
+}
+
+.datum_box{
+    background-color: rgba(255,255,255,0.25);
+    box-sizing: border-box;
+    padding: 0.25rem;
+    font-size: 14px;
+    margin: 0 2rem 1rem 2rem;
+    width: 19rem;
+    border-radius: 0.5rem;
+}
+
+.datum{
+    text-align: center;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 0;
+    
+}
+
+.radio-inputbox{
+    margin: 0;
+    display: block;
+}
+
+.radio-inputs {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: rgba(255,255,255,0.25);
+    box-sizing: border-box;
+    box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
+    padding: 0.25rem;
+    font-size: 14px;
+    margin: 0 2rem 0 2rem;
+}
+  
+.radio-inputs .radio {
+    flex: 1 1 auto;
+    text-align: center;
+}
+  
+.radio-inputs .radio input {
+    display: none;
+}
+  
+.radio-inputs .radio .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .5rem 0;
+    color: rgba(51, 65, 85, 1);
+    transition: all .15s ease-in-out;
+}
+  
+.radio-inputs .radio input:checked + .name {
+    background-color: #fff;
+    font-weight: 600;
+    
+}
+
+/*   Bejelentkezés oldal konfigurációi  --VÉGE--    */
+
 
 
 /* Töréspontok  és reszponzivitáshoz*/
@@ -840,15 +1172,21 @@ body {
     }
 }
 
+@media only screen and (max-width: 1900px) {
+    .tgomb {
+        margin-left: 30%;
+    }
+}
+
 @media only screen and (max-width: 1440px) {
     .tgomb {
-        margin-left: 35%;
+        margin-left: 30%;
     }
 }
 
 @media only screen and (max-width: 1024px) {
     .tgomb {
-        margin-left: 25%;
+        margin-left: 5%;
     }
 }
 
