@@ -1,0 +1,648 @@
+
+
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    max-width:100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hatter_fooldal{     /*index.html háttere*/
+    background-image: url(képek/bg.png);
+}
+
+.hatter_tamogatas{     /*tamogatas.html háttere*/
+    background-image:url(képek/customer\ service.jpg);
+}
+
+.hatter_varaslas{      /*vasarlas.html háttere*/
+    background-image: url(képek/bg2.png);
+}
+
+.hatter_csomagok{      /*csomagok.html*/
+    background-image: url(képek/wp8015700.jpg);
+}
+.hatter_jatekvasarlas{
+    background-image: url(képek/rdr2bg.jpg);
+}
+
+a{
+    color: white;
+}
+a:active{
+    color: white;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+/*Fejléc*/
+/*index.html*/
+header{
+    background-color: #161843;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:visited{
+    color: white;
+    text-decoration: none;
+}
+header a:link{
+    color: white;
+    text-decoration: none;
+}
+header a:active{
+    color: white;
+    text-decoration: none;
+}
+
+.fejlec_div{    
+    margin:1rem;
+}
+
+.fejlec_gomb{
+    font-size: 1.5rem;
+    margin: 0 2rem 0 0 ;
+    font-size: 13px;
+}
+
+.fejlec_logo{
+    max-width: 5rem;
+    max-height: 2.5rem;
+    float: right;
+    
+}
+/*index.hmtl*/
+/*Fejléc*/
+
+/*Main*/
+/*index.html*/
+main{
+    color:white;
+}
+
+#main_cim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.main_cim{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.main_alcim1{
+    font-size: 2.5rem;
+    float: left;
+    padding: 2rem;
+}
+
+.main_kepek1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_kep1{
+   width: 326px;
+   height: 304px;
+}
+
+.main_jateknev1{
+    background-color: #161843;  
+    height: 4rem;
+    max-width: 25rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main_nev1{
+    max-width: 12rem;
+    float:left;
+    font-size: 1.2rem;
+    margin: 0 0 0 2rem ;
+    width: 326px;
+}
+
+.ar1{
+    background-color:#302E96 ;
+    font-size: 1rem;
+}
+
+.ar1:first-child{
+    text-decoration: line-through;
+}
+
+.arsor {
+    margin-bottom: 5px;
+    font-size: 1.3em;
+    margin-left: 6rem;
+    background-color:#302E96 ;
+    font-size: 1rem overflow-x;
+}
+
+.arsor span {
+    display: block;
+}
+/*index.html*/
+/*tamogatas.html*/
+
+.segitseg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.segitsegszoveg1{
+    font-size: 2.5rem;
+    margin:1rem 0 1rem 0;
+}
+
+.segitsegszoveg2{
+    font-size: 2.5rem;
+    margin:1rem 0 0 0;
+}
+
+.segitseggomb{
+    color: white;
+    width: 15rem;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    overflow: hidden;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 300ms ease;
+    margin: 1rem 0 1rem 0;
+}
+
+.segitseggomb::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 15rem;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #302E96;
+    top: 100%;
+    left: 0;
+    transition: 500ms ease;
+}
+
+.segitseggomb:hover {
+    color: #fff;
+    letter-spacing: 3px;
+}
+  
+.segitseggomb:hover::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.elerhetoseg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.elerhetosegszoveg1{
+    font-size: 2.5rem;
+    margin:1rem 0 1rem 0;
+}
+
+.elerhetosegbox{
+    font-size: 1.9rem;
+}
+
+.elerhetosegli{
+    margin: 1rem 0;
+}
+
+main li{
+    list-style-type: none;
+
+}
+
+main li>img{
+    width:3rem ;
+    margin-right:25px ;
+}
+
+/*tamogatas.html*/
+/*vasarlas.html*/
+
+.main_jateknev2{
+    background-color: #161843;  
+    height: 4rem;
+    max-width: 25rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.main_nev2{
+    max-width: 13rem;
+    float:left;
+    font-size: 1.5rem;
+    margin: 0 0 0 2rem ;
+}
+
+.ar2{
+    background-color:#302E96 ;
+    font-size: 1rem;   
+}
+
+.arsor2 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    margin-left: 6rem;
+    background-color:#302E96 ;
+    font-size: 1rem;
+    
+}
+
+.arsor2 span {
+    display: block;
+}
+
+/*vasarlas.html*/
+/*csomagok.html*/
+
+#main_csomagcim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.main_alcim2{
+    font-size: 2rem;
+}
+
+.ar3{
+    background-color:#302E96 ;
+    font-size: 1rem;   
+}
+
+.arsor3 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    margin-left: 3rem;
+    background-color:#302E96 ;
+    font-size: 3rem;
+}
+
+.arsor3 span {
+    display: block;
+}
+
+.csomag_kep{
+    width: 20rem;
+    height: 16rem;
+}
+
+.csomag_kep:first-child{
+    border-radius: 1rem 0 0 1rem ;
+}
+
+.csomag_kep:last-child{
+    border-radius: 0 1rem 1rem 0 ;
+}
+
+.csomag_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    transition: transform 0.5 ease;
+    transition: filter 0.3s ease;
+    filter: blur(5px);
+}
+
+.csomag_box:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    filter: none;
+}
+
+.csomag_box:last-child{
+    margin-bottom: 1rem;
+}
+/*csomagok.html*/
+/*jatek_vasarlas.html*/
+
+
+.box1{
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .8);
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: white;
+    border-radius: 1rem;
+    padding: 0 2rem 0 2rem;
+    margin: 4rem 0 0 0;
+}
+
+.leirascim{
+    margin-left: 1rem;
+}
+
+.leirasszoveg{
+   margin-left: 1rem;
+}
+
+.box2{
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .8);
+    border-radius: 1rem;
+}
+
+.gepigenykep{
+    margin: 1rem 0 0 1rem;
+    width: 7rem;
+}
+
+.rdrkep{
+    width: 5rem;
+    box-shadow: black 0 1rem 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.gepigenyszoveg{
+    width: 30rem;
+    margin: 1rem 0 0 0;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+}
+
+.kartya{
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .8);
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    width: 25rem;
+    text-align: center;
+}
+   
+.kartya_reszletek{
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+}
+   
+.kartya_gomb{
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #302E96;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+   
+.kartya_szoveg1{
+    color: rgb(134, 134, 134);
+    font-size: 1.3rem;
+    text-decoration: line-through;
+}
+
+.kartya_szoveg2{
+    color: rgb(134, 134, 134);
+    font-size: 1.3rem;
+}
+
+.kartya_cim{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.kartya:hover {
+    border-color: #302E96;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+   
+.kartya:hover .kartya_gomb {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+}
+/*jatek_vasarlas.html*/
+/*Main*/
+
+/*Footer*/
+/*index.html*/
+footer{
+    background-color: #161843;
+    color: white;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.lablec_cim{
+    margin-top: 1rem;
+}
+
+.feliratkozommezo{
+    background-color: #302E96;
+    color: white;
+    border-radius: 1rem;
+    width: 6rem;
+    height: 2rem;
+    border: 0;
+}
+
+.emailcimmezo{
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    background-color: #161843;
+    border: white 1px solid; 
+    color: white;
+    width: 15rem;
+    height: 2rem;
+}
+
+#szerzoijogok{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+/*index.html*/
+/*tamogatas.html*/
+.hatter_tamogatas footer{
+    position: absolute;    
+}
+/*tamogatas.html*/
+/*jatekvasarlas.html*/
+.hatter_jatekvasarlas footer{
+    position: absolute;
+}
+/*jatekvasarlas.html*/
+/*Footer*/
+#egeszleiras {
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .8);
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin-top: 10%;
+    padding-right: 35%;
+    color: white;
+    border-radius: 3px;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#pmain-text {
+    margin-top: 12.5%;
+}
+
+#leiras {
+    margin-top: 2.5%;
+}
+
+#eladas1 {
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .6);
+    display: flex;
+    margin-top: 10%;
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    justify-content: left;
+}
+
+#eladas2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 5%;
+    width: 100%;
+    height: 500px;
+}
+
+.arak {
+    backdrop-filter: blur(50px);
+    background-color: rgba(32, 35, 95, .6);
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.rdr2_aroff {
+    display: flex;
+}
+
+#rdr2_aroff {
+    margin-bottom: 10px;
+    text-decoration: line-through;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.rdr2_ar {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.vasarlas {
+    margin-bottom: 10%;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+
+#gomb {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #fff;
+    border-radius: 15px;
+    border: 0;
+    width: 120px;
+    height: 40px;
+    background-color: #363974;
+    cursor: pointer;
+    transition: transform 0.01s;
+}
+
+#gomb:active {
+    content: "Feliratkozva";
+    transform: scale(1.1);
+}
+
+#vasarlaskep {
+    margin-top: 20px;
+    height: auto;
+    width: 100px;
+    box-shadow: 7.5px 7.5px 7.5px rgba(0, 0, 0, 0.6)
+}
+
+
+#gepigenykep {
+    display: inline-block;
+    width: 120px;
+    vertical-align: top;
+}
+
+#gepigenyszoveg {
+    margin-top: 10px;
+    width: 400px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#forras {
+    text-decoration: underline;
+    color: white;
+    transition: font-size 0.3s ease;
+}
+
+#forras:hover {
+    font-size: 1.05em;
+}
