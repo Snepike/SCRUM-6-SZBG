@@ -1262,6 +1262,9 @@ footer{
     }
     /*jatek_vasarlas.html*/
     /*footer*/
+    .hatter_tamogatas footer{
+        position: absolute;    
+    }
     .hatter_loginoldal footer{
         position: absolute;    
     }
@@ -1380,13 +1383,14 @@ footer{
     .lablec_szoveg{
         font-size: 0.9rem;
     }
-
+    .hatter_tamogatas footer{
+        position: absolute;    
+    }
     .hatter_loginoldal footer{
         position: absolute;    
     }
     /*footer*/
 }
-
 @media (min-width: 457px) and (max-width: 500px){
     .fejlec_gomb{
         font-size: 75%;
@@ -1505,7 +1509,9 @@ footer{
     .lablec_szoveg{
         font-size: 0.8rem;
     }
-
+    .hatter_tamogatas footer{
+        position: absolute;    
+    }
     .hatter_loginoldal footer{
         position: absolute;
     }
@@ -1631,6 +1637,9 @@ footer{
     .lablec_szoveg{
         font-size: 0.8rem;
     }
+    .hatter_tamogatas footer{
+        position: absolute;    
+    }
     .hatter_loginoldal footer{
         position: absolute;
     }
@@ -1640,7 +1649,7 @@ footer{
     /*footer*/
 }
 
-@media (min-width: 200px) and (max-width: 430px){
+@media (min-width: 415px) and (max-width: 430px){
     .fejlec_gomb{
         font-size: 65%;
         padding: 5px;
@@ -1755,6 +1764,134 @@ footer{
     }
     .lablec_szoveg{
         font-size: 0.7rem;
+    }
+    .hatter_tamogatas footer{
+        position: absolute;    
+    }
+    .hatter_loginoldal footer{
+        position: absolute;
+    }
+    /*footer*/
+}
+
+@media (min-width: 200px) and (max-width: 415px){
+    .fejlec_gomb{
+        font-size: 60%;
+        padding: 2px;
+    }
+    .fejlec_logo{
+        max-width: 3rem;
+        max-height: 1rem;
+        margin: 0.30rem 0 0 0;
+    }
+    .main_cim{
+        font-size: 2.5rem;
+    }
+    .main_alcim1{
+        font-size: 2rem;
+    }
+    .main_kep1{
+        width: 20rem;
+        height: 14rem;
+    }
+    .main_jateknev1{
+        height: 4rem;
+        width: 20rem;
+    }
+    .main_nev1{
+        font-size: 1rem;
+    }
+    .arsor{
+        margin-left:6rem;
+        margin-right: 1rem;
+    }
+    .main_jateknev2{
+        height: 4rem;
+        width: 20rem;
+    }
+    .main_nev2{
+        font-size: 1rem;
+    }
+    /*tamogatas.html*/
+    .main_cim2{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .segitsegszoveg1{
+        font-size: 1.85rem;
+    }
+    .segitsegszoveg2{
+        font-size: 1.85rem;
+    }
+    .elerhetosegszoveg1{
+        font-size: 1.85rem;
+    }
+    .elerhetosegli{
+        font-size: 2rem;
+    }
+    .elerhetosegbox{
+        font-size: 1rem;
+    }   
+    .elerhetosegli{
+      margin: 0.5rem 0;
+    }
+    main li>img{
+        width:2.4rem ;
+        margin-right:25px ;
+    }
+    .elerhetosegbox a{
+        font-size: 1.4rem;
+    }
+    /*tamogatas.html*/
+    /*csomagok.html*/
+    .main_alcim2{
+        font-size: 1.1rem;
+    }
+    /*csomagok.html*/
+    /*jatek_vasarlas.html*/
+    .hatter_jatekvasarlas h2:nth-child(1){
+        font-size: 1.5rem;
+    }
+    .hatter_jatekvasarlas h3:nth-child(1){
+        font-size: 1.5rem;
+    }
+    .hatter_jatekvasarlas p{
+        font-size: 0.8rem;
+    }
+    .gepigenyszoveg{
+        width: 22rem;
+        padding-left: 4rem;
+    }
+    .hatter_jatekvasarlas li{
+        font-size: 0.45rem;
+    }
+    .kartya{
+        width: 20rem;
+        height: 180px;
+        margin: 0 0 5rem 0;
+    }
+    .kartya_cim{
+        font-size: 1.8rem;
+    }
+    /*jatek_vasarlas.html*/
+    /*footer*/  
+    .lablec_cim{
+        font-size: 1.3rem;
+    }
+    .feliratkozommezo{
+        width: 5rem;
+        height: 2rem;
+        font-size: 0.8rem;
+    }
+    .emailcimmezo{
+        width: 13rem;
+        height: 2rem;
+    }
+    .lablec_szoveg{
+        font-size: 0.7rem;
+    }
+    .hatter_tamogatas footer{
+        position: absolute;    
     }
     .hatter_loginoldal footer{
         position: absolute;
