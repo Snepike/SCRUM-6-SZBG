@@ -178,6 +178,13 @@ main{
     height: 20rem;
 }
 
+.main_kep1:hover{
+    animation: none;
+    cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.6)
+}
+
 .main_jateknev1{
     background-color: #161843;  
     height: 4rem;
@@ -1632,9 +1639,6 @@ footer{
         font-size: 0.8rem;
     }
     .hatter_loginoldal footer{
-        position: absolute;
-    }
-    .hatter_jatekvasarlas footer{
         position: absolute;
     }
     /*footer*/
