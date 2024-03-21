@@ -792,9 +792,6 @@ footer{
 
 /*tamogatas.html*/
 /*jatekvasarlas.html*/
-.hatter_jatekvasarlas footer{
-    position: relative;
-}
 /*jatekvasarlas.html*/
 /*Footer*/
 
@@ -804,9 +801,6 @@ footer{
         position: absolute;    
     }
     .hatter_loginoldal footer{
-        position: absolute;
-    }
-    .hatter_jatekvasarlas footer{
         position: absolute;
     }
     /*footer*/
@@ -837,9 +831,6 @@ footer{
         position: absolute;    
     }
     .hatter_loginoldal footer{
-        position: absolute;
-    }
-    .hatter_jatekvasarlas footer{
         position: absolute;
     }
     /*footer*/
